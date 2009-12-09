@@ -1,0 +1,76 @@
+"Nome","Tipo","A","AP","Cost","Faction","Prod","m","M","D","mem","sl","VP","Bonus"
+"Saburo","Node",0,0,0,"Y",3,1,3,3,3,5,3,
+"Quico","Node",0,0,0,"U",5,2,5,2,3,3,3,"Tap to prevent defense malus on this snode."
+"The Projects","Node",0,0,0,"U",3,1,4,2,3,3,3,"5K (C) Tap to get Loa's protection (prevent attack malus from this node)."
+"Hypermart","Node",0,0,0,"U",3,2,4,2,4,3,3,"Tap to get 6k for chip shopping."
+"Kyuzz","Node",0,0,0,"U",3,1,3,3,3,3,3,"Autodisconnect: +1AP to disconnect node."
+"Home","Node",0,0,0,"C",4,0,6,1,4,4,2,
+"Home","Node",0,0,0,"U",2,0,6,1,4,4,2,"Scanner +2A."
+"Home","Node",0,0,0,"M",2,0,6,2,4,4,2,"Simple Scanner +1A."
+"Home","Node",0,0,0,"Y",2,0,6,3,4,4,2,
+"Marciosoft","Node",0,0,0,"C",7,3,5,4,5,3,5,
+"Truffo spa","Node",0,0,0,"C",5,1,4,3,3,2,4,
+"Zaibatsu 1","Node",0,0,0,"Y",4,2,5,4,2,2,4,
+"Fujiyama","Node",0,0,0,"Y",2,1,3,5,3,1,4,
+"Xoxxo","Node",0,0,0,"U",6,3,4,4,3,5,5,
+"Kitty's Inc","Node",0,0,0,"C",4,2,3,1,3,2,3,"Defense Chip double bonus."
+"Italian Rest","Node",0,0,0,"M",5,2,5,2,2,2,4,"Home node for mafia Cracker. Tap to gain 10k for mafia Cracker hiring."
+"Chip's Gnaps","Node",0,0,0,"C",5,1,3,2,3,3,4,"Tap to prevent Chip destruction (can't use it)."
+"LoanShark","Node",0,0,0,"M",3,1,4,1,4,3,2,"+3K istant cache (only for smart shop)."
+"Sarariman","Cracker",1,4,6,"Y",0,0,0,3,0,0,0,
+"Jack the Lame","Cracker",3,5,7,"U",0,0,0,3,0,0,0,"Cost 2K each turn."
+"Smith","Cracker",1,6,17,"C",0,0,0,4,0,0,0,"get -1 for each Cracker in defense with him    2AP (C) +1A."
+"Bobby Newmark","Cracker",4,3,10,"U",0,0,0,1,0,0,0,"Spend 8: get a +1AP or loa's protection."
+"Krumiro","Cracker",2,3,9,"C",0,0,0,4,0,0,0,"Cost 4K each Turn."
+"Rossi","Cracker",1,3,6,"C",0,0,0,2,0,0,0,"If burned can reenter for 3k next turn."
+"Tony","Cracker",3,4,7,"M",0,0,0,1,0,0,0,"Spend 2 AP for a +1 Attack"
+"Vinny","Cracker",4,5,14,"M",0,0,0,1,0,0,0,"Cost 2k each turn (or get -2 AP)"
+"Big Boy","Cracker",3,4,6,"M",0,0,0,1,0,0,0,
+"Bianchi","Cracker",1,4,8,"C",0,0,0,3,0,0,0,"+2k Production"
+"RipperJack","Cracker",5,5,14,"U",0,0,0,1,0,0,0,"Attack alone. Cost 6k each Turn. Dedicated Deck (no chip)"
+"Freud","Cracker",4,4,9,"Y",0,0,0,2,0,0,0,"Cost 6k each Turn."
+"Sujimori","Cracker",1,5,14,"Y",0,0,0,3,0,0,0,"5k (c) +1A (max +3). 3K each Turn."
+"Asbesto","Cracker",2,4,7,"X",0,0,0,2,0,0,0,"+2AP for network reconf"
+"Lamer","Cracker",2,3,3,"U",0,0,0,2,0,0,0,"Cost 0 if is first Cracker played"
+"Junior","Cracker",1,4,3,"C",0,0,0,2,0,0,0,"Cost 0 if is first Cracker played"
+"Samurai","Cracker",1,4,7,"Y",0,0,0,3,0,0,0,"+1 AP (max +3) if he doesn't use AP last turn"
+"Gonzo","Cracker",3,4,7,"U",0,0,0,2,0,0,0,"If attack can't use AP next turn"
+"Ninja","Cracker",2,4,13,"Y",0,0,0,3,0,0,0,
+"IceBreaker","Chip",1,0,4,"U",0,0,0,0,1,0,0,"Disable Lock (lucchetto)"
+"Scanner","Chip",2,0,6,"X",0,0,0,0,2,0,0,
+"Scan Sniper","Chip",1,0,4,"C",0,0,0,0,1,0,0,"Disable Scanner"
+"Simple Scanner","Chip",1,0,2,"X",0,0,0,0,1,0,0,
+"IDS","Chip",0,0,9,"C",0,0,0,3,3,0,0,"5K (C) +1A (only once)"
+"Bankomat","Chip",0,0,6,"C",0,0,0,1,1,0,0,"+2K Prod"
+"Virus","Chip",1,0,6,"M",0,0,0,0,2,0,0,"-1 Defense on attacked node next turn"
+"Virus Check","Chip",2,0,7,"X",0,0,0,1,3,0,0,"-1 Defense on attacked node next turn"
+"Eraser","Chip",0,0,3,"X",0,0,0,1,1,0,0,"Autodestruction (if someone change root it will be placed on graveyard)"
+"Remote Control","Chip",0,0,5,"X",0,0,0,1,1,0,0,"+1 AP"
+"Batch Script","Chip",1,0,5,"X",0,0,0,0,1,0,0,"+1 AP"
+"Pizza","Chip",1,0,4,"M",0,0,0,0,1,0,0,"+1k Prod"
+"Crack","Chip",2,0,9,"U",0,0,0,1,3,0,0,"5K (C) +1AP only once"
+"Base Lock","Chip",0,0,2,"X",0,0,0,1,1,0,0,
+"Lock","Chip",0,0,6,"X",0,0,0,2,2,0,0,
+"Sushi","Chip",0,0,4,"Y",0,0,0,1,1,0,0,"+1k Prod"
+"Proxy","Chip",1,0,6,"U",0,0,0,0,2,0,0,"+2 AP for one Cracker"
+"El Shock","Chip",0,0,6,"Y",0,0,0,1,2,0,0,"Disconnect Attacking Cracker after attack resolution"
+"Shock","Smartcard",0,0,6,"Y",0,0,0,0,0,0,0,"Disconnect an Cracker"
+"CopyLeft","Smartcard",0,0,5,"X",0,0,0,0,0,0,0,"1AP (C) Clone a Chip until end of the turn. "
+"Mandrake","Smartcard",0,0,5,"X",0,0,0,0,0,0,0,"+2 Attack"
+"Story","Smartcard",0,0,2,"X",0,0,0,0,0,0,0,"+1 Defense"
+"Space Invaders","Smartcard",0,0,4,"C",0,0,0,0,0,0,0,"Target Cracker get -2 AP"
+"TurnAround","Smartcard",0,0,5,"X",0,0,0,0,0,0,0,"+2 Defense"
+"Exploit","Smartcard",0,0,6,"U",0,0,0,0,0,0,0,"All Corporative node get -1 Defense"
+"Leon","Smartcard",0,0,6,"M",0,0,0,0,0,0,0,"All Attaccking Crackers get -1 AP"
+"Jammer's Club","Smartcard",0,0,10,"U",0,0,0,0,0,0,0,"All your Cracker get +2 Attack or +2 Defense"
+"MegaPatch","Smartcard",0,0,4,"C",0,0,0,0,0,0,0,"+1 Defense for all Corporative nodes"
+"BufferOverflow","Smartcard",0,0,2,"X",0,0,0,0,0,0,0,"+1 Attack"
+"Stuff","Smartcard",0,0,6,"X",0,0,0,0,0,0,0,"+2 AP for one Cracker"
+"Black Out","Event",0,0,12,"X",0,0,0,0,0,0,0,"Put all chips from play to the graveyards"
+"Zen Spider","Event",0,0,3,"Y",0,0,0,0,0,0,0,"Yakuza node production will be doubled"
+"NetBust","Event",0,0,8,"C",0,0,0,0,0,0,0,"Put an Cracker in owners deck and reshuffle"
+"OverBurn","Event",0,0,10,"X",0,0,0,0,0,0,0,"Sacrifice a Chip. Destroy a node and reconf"
+"Porno DWH","Event",0,0,6,"X",0,0,0,0,0,0,0,"Move an Cracker to an adiacent node"
+"Family Estates","Event",0,0,3,"M",0,0,0,0,0,0,0,"Mafia node production will be doubled"
+"Nerd's Revenge","Event",0,0,4,"U",0,0,0,0,0,0,0,"All Underground Crackers with less than 3 in attack get +1 Attack"
+"Wilsonate","Event",0,0,8,"U",0,0,0,0,0,0,0,"Destroy a Chip"

@@ -1,0 +1,3266 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE ccg-setinfo SYSTEM "../gccg-set.dtd">
+<ccg-setinfo name="Basic Deck" dir="BasicDeck"
+  abbrev="BA" game="Collectible Cyberdeck">
+
+<cards>
+<card name="Bankomat" text="" graphics="./cardAAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="B" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2K Prod" />
+</card>
+<card name="IDS" text="" graphics="./cardAAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="B" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="5K (C) +1A (only once)" />
+</card>
+<card name="Scan Sniper" text="" graphics="./cardBAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disable Scanner" />
+</card>
+<card name="Virus" text="" graphics="./cardCAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="C" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="-1 Defense on attacked node next turn" />
+</card>
+<card name="Pizza" text="" graphics="./cardDAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="C" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1k Prod" />
+</card>
+<card name="Sushi" text="" graphics="./cardEAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1k Prod" />
+</card>
+<card name="El Shock" text="" graphics="./cardFAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disconnect Attacking Cracker after attack resolution" />
+</card>
+<card name="AntiVirus" text="" graphics="./cardGAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disable Virus" />
+</card>
+<card name="ICE" text="" graphics="./cardHAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="13" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="the node production is reducted to 0" />
+</card>
+<card name="Custom Login" text="" graphics="./cardIAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="can't be disconnected defense bonus only on the buier" />
+</card>
+<card name="Proxy" text="" graphics="./cardJAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="U" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 AP for one Cracker" />
+</card>
+<card name="Crack" text="" graphics="./cardKAAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="U" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="2" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="5K (C) +1AP only once" />
+</card>
+<card name="IceBreaker" text="" graphics="./cardLAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="U" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disable Lock (lucchetto)" />
+</card>
+<card name="Virus Check" text="" graphics="./cardMAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="2" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="-1 Defense on attacked node next turn" />
+</card>
+<card name="Remote Control" text="" graphics="./cardNAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 AP" />
+</card>
+<card name="Batch Script" text="" graphics="./cardOAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 AP" />
+</card>
+<card name="Eraser" text="" graphics="./cardPAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Autodestruction (if someone change root it will be placed on graveyard)" />
+</card>
+<card name="Scanner" text="" graphics="./cardQAAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="2" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Simple Scanner" text="" graphics="./cardRAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Lock" text="" graphics="./cardSAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Base Lock" text="" graphics="./cardTAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Bianchi" text="" graphics="./cardT@AAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="1" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Reduce Ap to 0: +2k Production" />
+</card>
+<card name="Krumiro" text="" graphics="./cardTAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="2" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 4K each Turn." />
+</card>
+<card name="Smith" text="" graphics="./cardTBAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="17" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="1" />
+<attr key="AP" value="6" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="get -1 for each Cracker in defense with him    2AP (C) +1A." />
+</card>
+<card name="Rossi" text="" graphics="./cardTCAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="1" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Unsickness" />
+</card>
+<card name="Vinny" text="" graphics="./cardTDAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="11" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="4" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 2k each turn (or get -2 AP)" />
+</card>
+<card name="Tony" text="" graphics="./cardTEAAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="3" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Spend 2 AP for a +1 Attack" />
+</card>
+<card name="Big Boy" text="" graphics="./cardTFAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="3" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Picciotto" text="" graphics="./cardTGAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 0 if he's your first Cracker " />
+</card>
+<card name="Samurai" text="" graphics="./cardTHAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="1" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 AP (max +3) if he doesn't use AP last turn" />
+</card>
+<card name="Sujimori" text="" graphics="./cardTIAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="14" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="1" />
+<attr key="AP" value="5" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="5k (c) +1A (max +3)" />
+</card>
+<card name="Freud" text="" graphics="./cardTJAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="4" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 6k each Turn." />
+</card>
+<card name="Ninja" text="" graphics="./cardTKAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="13" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="2" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Sarariman" text="" graphics="./cardTLAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="1" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="RipperJack" text="" graphics="./cardTMAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="14" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="5" />
+<attr key="AP" value="1" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Solo. 3k +1 AP max +2. Dedicated Deck (no chip)" />
+</card>
+<card name="Lamer" text="" graphics="./cardTNAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="2" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 0 if he is your first Cracker played" />
+</card>
+<card name="Jack the Lame" text="" graphics="./cardTOAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="3" />
+<attr key="AP" value="5" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 3K each turn." />
+</card>
+<card name="Gonzo" text="" graphics="./cardTPAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="3" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="If attack can't use AP next turn" />
+</card>
+<card name="Bobby Newmark" text="" graphics="./cardTQAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="14" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="4" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Spend 8: get a +1AP or teamwork dedicated deck" />
+</card>
+<card name="Asbesto" text="" graphics="./cardTRAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="X" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="2" />
+<attr key="AP" value="2" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2AP for network reconf" />
+</card>
+<card name="Carrier" text="" graphics="./cardTSAAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="X" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="1" />
+<attr key="AP" value="2" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 AP for chip reconf" />
+</card>
+<card name="Engineer" text="" graphics="./cardTTAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="X" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="1" />
+<attr key="AP" value="1" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="on hire you can give 2 point in A D or AP" />
+</card>
+<card name="Bribe" text="" graphics="./cardTT@AAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="2" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Pay the casting cost of the cracker he move to your sidebank if the owner doesn't pay the casting cost itself" />
+</card>
+<card name="Family Estates" text="" graphics="./cardTTAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Crime node production will be doubled" />
+</card>
+<card name="Backdoor" text="" graphics="./cardTTBAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Change the root of a node you loose last turn" />
+</card>
+<card name="Sofiata" text="" graphics="./cardTTCAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Look at the opponent hand" />
+</card>
+<card name="Zen Spider" text="" graphics="./cardTTDAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Yakuza node production will be doubled" />
+</card>
+<card name="NetBust" text="" graphics="./cardTTEAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Put an Cracker in owners deck and reshuffle" />
+</card>
+<card name="CrackDown" text="" graphics="./cardTTFAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Destroy a node from where an attack was lauched last turn" />
+</card>
+<card name="OverBurn" text="" graphics="./cardTTGAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Sacrifice a Chip. Destroy a node and reconf" />
+</card>
+<card name="Nerd's Revenge" text="" graphics="./cardTTHAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="U" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All Underground Crackers with less than 3 in attack get +1 Attack" />
+</card>
+<card name="Wilsonate" text="" graphics="./cardTTIAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Event" />
+<attr key="faction" value="U" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Destroy a Chip" />
+</card>
+<card name="Search Engine" text="" graphics="./cardTTJAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="B" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Search for a card in your deck then shuffle " />
+</card>
+<card name="Node Auction" text="" graphics="./cardTTKAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Search for the first node on a deck and discard it in the graveyard" />
+</card>
+<card name="Porno DWH" text="" graphics="./cardTTLAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Move an Cracker to an adiacent node" />
+</card>
+<card name="Black Out" text="" graphics="./cardTTMAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="X" />
+<attr key="cost" value="12" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Put all chips from play to the graveyards" />
+</card>
+<card name="OverBurn" text="" graphics="./cardTTNAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="X" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Sacrifice a Chip. Destroy a node and reconf" />
+</card>
+<card name="Kitty's Inc" text="" graphics="./cardTTOAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="2" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Defense Chip double bonus." />
+</card>
+<card name="Chip's Gnaps" text="" graphics="./cardTTPAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="5" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Tap to prevent Chip destruction (can't use it)." />
+</card>
+<card name="Home" text="" graphics="./cardTTQAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="" />
+</card>
+<card name="Marciosoft" text="" graphics="./cardTTRAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="7" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="5" />
+<attr key="slot" value="3" />
+<attr key="VP" value="5" />
+<attr key="bonus" value="" />
+</card>
+<card name="Truffo spa" text="" graphics="./cardTTSAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="5" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="1" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="" />
+</card>
+<card name="Xoxxo" text="" graphics="./cardTTTAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="5" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="5" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="" />
+</card>
+<card name="LoanShark" text="" graphics="./cardTTT@AAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="+3K istant cache (only for smart shop)." />
+</card>
+<card name="Italian Rest" text="" graphics="./cardTTTAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Entry Point for mafia Cracker. Tap to gain 8k for mafia Cracker hiring." />
+</card>
+<card name="Home" text="" graphics="./cardTTTBAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="Simple Scanner +1A." />
+</card>
+<card name="Yakuza" text="" graphics="./cardTTTCAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Tap for 8k event shopping" />
+</card>
+<card name="Triads" text="" graphics="./cardTTTDAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="" />
+</card>
+<card name="Bashura" text="" graphics="./cardTTTEAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="" />
+</card>
+<card name="MI5" text="" graphics="./cardTTTFAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="5" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="1" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Attack only from one node allowed. " />
+</card>
+<card name="SISDE" text="" graphics="./cardTTTGAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Entry Point for Police Cracker -  +4k for chip shopping" />
+</card>
+<card name="CIA" text="" graphics="./cardTTTHAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="5" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="" />
+</card>
+<card name="FBI" text="" graphics="./cardTTTIAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="1" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="" />
+</card>
+<card name="Home" text="" graphics="./cardTTTJAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="" />
+</card>
+<card name="KGB" text="" graphics="./cardTTTKAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="" />
+</card>
+<card name="The Projects" text="" graphics="./cardTTTLAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="5K (C) Tap for Attack Teamwork." />
+</card>
+<card name="Kyuzz" text="" graphics="./cardTTTMAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Autodisconnect: +1AP to disconnect node. Fashionable" />
+</card>
+<card name="Freaknet" text="" graphics="./cardTTTNAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="1" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Entry point for Underground Cracker" />
+</card>
+<card name="Home" text="" graphics="./cardTTTOAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="Scanner +2A." />
+</card>
+<card name="Quico" text="" graphics="./cardTTTPAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Tap for Defense Teamwork" />
+</card>
+<card name="Hypermart" text="" graphics="./cardTTTQAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Tap to get 6k for chip shopping." />
+</card>
+<card name="Ghost Server" text="" graphics="./cardTTTRAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="X" />
+<attr key="cost" value="0" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Autodisconnect: +2AP to disconnect node. Fashionable No-Root" />
+</card>
+<card name="DWH" text="" graphics="./cardTTTSAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="X" />
+<attr key="cost" value="0" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="6" />
+<attr key="VP" value="1" />
+<attr key="bonus" value="Each Chip on this node give +2K production +1VP" />
+</card>
+<card name="Router" text="" graphics="./cardTTTTAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="X" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="1" />
+<attr key="VP" value="1" />
+<attr key="bonus" value="Entry Point" />
+</card>
+<card name="MegaPatch" text="" graphics="./cardTTTT@AAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 Defense for all Corporative nodes" />
+</card>
+<card name="Space Invaders" text="" graphics="./cardTTTTAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Target Cracker get -2 AP" />
+</card>
+<card name="Cracker Hunter" text="" graphics="./cardTTTTBAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Cracker" />
+</card>
+<card name="Node Counter" text="" graphics="./cardTTTTCAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Node" />
+</card>
+<card name="Event Counter" text="" graphics="./cardTTTTDAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Event" />
+</card>
+<card name="Smart Counter" text="" graphics="./cardTTTTEAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Smartcard" />
+</card>
+<card name="Chip Counter" text="" graphics="./cardTTTTFAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Chip" />
+</card>
+<card name="Counter card" text="" graphics="./cardTTTTGAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target card pay also double of casting cost of it" />
+</card>
+<card name="Leon" text="" graphics="./cardTTTTHAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All Attaccking Crackers get -1 AP" />
+</card>
+<card name="Shock" text="" graphics="./cardTTTTIAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="P" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disconnect an Cracker" />
+</card>
+<card name="Exploit" text="" graphics="./cardTTTTJAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All Corporative node get -1 Defense" />
+</card>
+<card name="Jammer's Club" text="" graphics="./cardTTTTKAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All your Cracker get +2 Attack or +2 Defense" />
+</card>
+<card name="Modem Connection" text="" graphics="./cardTTTTLAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Create a temporaly fake node with m0 M6 even in a dead zone" />
+</card>
+<card name="Team Leader" text="" graphics="./cardTTTTMAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Give Teamwork in a node" />
+</card>
+<card name="BufferOverflow" text="" graphics="./cardTTTTNAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="2" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 Attack" />
+</card>
+<card name="Story" text="" graphics="./cardTTTTOAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="2" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr k
+<card name="Bankomat" text="" graphics="./cardAAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="B" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2K Prod" />
+</card>
+<card name="IDS" text="" graphics="./cardAAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="B" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="5K (C) +1A (only once)" />
+</card>
+<card name="Scan Sniper" text="" graphics="./cardBAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disable Scanner" />
+</card>
+<card name="Virus" text="" graphics="./cardCAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="C" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="-1 Defense on attacked node next turn" />
+</card>
+<card name="Pizza" text="" graphics="./cardDAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="C" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1k Prod" />
+</card>
+<card name="Sushi" text="" graphics="./cardEAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1k Prod" />
+</card>
+<card name="El Shock" text="" graphics="./cardFAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disconnect Attacking Cracker after attack resolution" />
+</card>
+<card name="AntiVirus" text="" graphics="./cardGAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disable Virus" />
+</card>
+<card name="ICE" text="" graphics="./cardHAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="13" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="the node production is reducted to 0" />
+</card>
+<card name="Custom Login" text="" graphics="./cardIAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="can't be disconnected defense bonus only on the buier" />
+</card>
+<card name="Proxy" text="" graphics="./cardJAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="U" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 AP for one Cracker" />
+</card>
+<card name="Crack" text="" graphics="./cardKAAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="U" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="2" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="5K (C) +1AP only once" />
+</card>
+<card name="IceBreaker" text="" graphics="./cardLAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="U" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disable Lock (lucchetto)" />
+</card>
+<card name="Virus Check" text="" graphics="./cardMAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="2" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="-1 Defense on attacked node next turn" />
+</card>
+<card name="Remote Control" text="" graphics="./cardNAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 AP" />
+</card>
+<card name="Batch Script" text="" graphics="./cardOAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 AP" />
+</card>
+<card name="Eraser" text="" graphics="./cardPAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Autodestruction (if someone change root it will be placed on graveyard)" />
+</card>
+<card name="Scanner" text="" graphics="./cardQAAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="2" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Simple Scanner" text="" graphics="./cardRAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="1" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Lock" text="" graphics="./cardSAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Base Lock" text="" graphics="./cardTAAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Chip" />
+<attr key="faction" value="X" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Bianchi" text="" graphics="./cardT@AAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="1" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Reduce Ap to 0: +2k Production" />
+</card>
+<card name="Krumiro" text="" graphics="./cardTAAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="2" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 4K each Turn." />
+</card>
+<card name="Smith" text="" graphics="./cardTBAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="17" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="1" />
+<attr key="AP" value="6" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="get -1 for each Cracker in defense with him    2AP (C) +1A." />
+</card>
+<card name="Rossi" text="" graphics="./cardTCAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="B" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="1" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Unsickness" />
+</card>
+<card name="Vinny" text="" graphics="./cardTDAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="11" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="4" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 2k each turn (or get -2 AP)" />
+</card>
+<card name="Tony" text="" graphics="./cardTEAAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="3" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Spend 2 AP for a +1 Attack" />
+</card>
+<card name="Big Boy" text="" graphics="./cardTFAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="3" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Picciotto" text="" graphics="./cardTGAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="C" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 0 if he's your first Cracker " />
+</card>
+<card name="Samurai" text="" graphics="./cardTHAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="1" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 AP (max +3) if he doesn't use AP last turn" />
+</card>
+<card name="Sujimori" text="" graphics="./cardTIAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="14" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="3" />
+<attr key="attack" value="1" />
+<attr key="AP" value="5" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="5k (c) +1A (max +3)" />
+</card>
+<card name="Freud" text="" graphics="./cardTJAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="9" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="4" />
+<attr key="AP" value="4" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 6k each Turn." />
+</card>
+<card name="Ninja" text="" graphics="./cardTKAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="13" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="4" />
+<attr key="attack" value="2" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="Sarariman" text="" graphics="./cardTLAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="P" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="1" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="" />
+</card>
+<card name="RipperJack" text="" graphics="./cardTMAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="14" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="5" />
+<attr key="AP" value="1" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Solo. 3k +1 AP max +2. Dedicated Deck (no chip)" />
+</card>
+<card name="Lamer" text="" graphics="./cardTNAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="2" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 0 if he is your first Cracker played" />
+</card>
+<card name="Jack the Lame" text="" graphics="./cardTOAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="3" />
+<attr key="AP" value="5" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Cost 3K each turn." />
+</card>
+<card name="Gonzo" text="" graphics="./cardTPAAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="3" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="If attack can't use AP next turn" />
+</card>
+<card name="Bobby Newmark" text="" graphics="./cardTQAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="U" />
+<attr key="cost" value="14" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="4" />
+<attr key="AP" value="3" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Spend 8: get a +1AP or teamwork dedicated deck" />
+</card>
+<card name="Asbesto" text="" graphics="./cardTRAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="X" />
+<attr key="cost" value="7" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="2" />
+<attr key="attack" value="2" />
+<attr key="AP" value="2" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2AP for network reconf" />
+</card>
+<card name="Carrier" text="" graphics="./cardTSAAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="X" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="1" />
+<attr key="AP" value="2" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 AP for chip reconf" />
+</card>
+<card name="Engineer" text="" graphics="./cardTTAAAAAAA.png" >
+<attr key="rarity" value="V" />
+<attr key="type" value="Cracker" />
+<attr key="faction" value="X" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="1" />
+<attr key="attack" value="1" />
+<attr key="AP" value="1" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="on hire you can give 2 point in A D or AP" />
+</card>
+<card name="Bribe" text="" graphics="./cardTT@AAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="2" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Pay the casting cost of the cracker he move to your sidebank if the owner doesn't pay the casting cost itself" />
+</card>
+<card name="Family Estates" text="" graphics="./cardTTAAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Crime node production will be doubled" />
+</card>
+<card name="Backdoor" text="" graphics="./cardTTBAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Change the root of a node you loose last turn" />
+</card>
+<card name="Sofiata" text="" graphics="./cardTTCAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="C" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Look at the opponent hand" />
+</card>
+<card name="Zen Spider" text="" graphics="./cardTTDAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="3" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Yakuza node production will be doubled" />
+</card>
+<card name="NetBust" text="" graphics="./cardTTEAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Put an Cracker in owners deck and reshuffle" />
+</card>
+<card name="CrackDown" text="" graphics="./cardTTFAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Destroy a node from where an attack was lauched last turn" />
+</card>
+<card name="OverBurn" text="" graphics="./cardTTGAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="P" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Sacrifice a Chip. Destroy a node and reconf" />
+</card>
+<card name="Nerd's Revenge" text="" graphics="./cardTTHAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="U" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All Underground Crackers with less than 3 in attack get +1 Attack" />
+</card>
+<card name="Wilsonate" text="" graphics="./cardTTIAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Event" />
+<attr key="faction" value="U" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Destroy a Chip" />
+</card>
+<card name="Search Engine" text="" graphics="./cardTTJAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="B" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Search for a card in your deck then shuffle " />
+</card>
+<card name="Node Auction" text="" graphics="./cardTTKAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Search for the first node on a deck and discard it in the graveyard" />
+</card>
+<card name="Porno DWH" text="" graphics="./cardTTLAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Event" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Move an Cracker to an adiacent node" />
+</card>
+<card name="Black Out" text="" graphics="./cardTTMAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="X" />
+<attr key="cost" value="12" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Put all chips from play to the graveyards" />
+</card>
+<card name="OverBurn" text="" graphics="./cardTTNAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Event" />
+<attr key="faction" value="X" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Sacrifice a Chip. Destroy a node and reconf" />
+</card>
+<card name="Kitty's Inc" text="" graphics="./cardTTOAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="2" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Defense Chip double bonus." />
+</card>
+<card name="Chip's Gnaps" text="" graphics="./cardTTPAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="5" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Tap to prevent Chip destruction (can't use it)." />
+</card>
+<card name="Home" text="" graphics="./cardTTQAAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="" />
+</card>
+<card name="Marciosoft" text="" graphics="./cardTTRAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="7" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="5" />
+<attr key="slot" value="3" />
+<attr key="VP" value="5" />
+<attr key="bonus" value="" />
+</card>
+<card name="Truffo spa" text="" graphics="./cardTTSAAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="5" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="1" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="" />
+</card>
+<card name="Xoxxo" text="" graphics="./cardTTTAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="B" />
+<attr key="cost" value="0" />
+<attr key="prod" value="5" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="5" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="" />
+</card>
+<card name="LoanShark" text="" graphics="./cardTTT@AAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="+3K istant cache (only for smart shop)." />
+</card>
+<card name="Italian Rest" text="" graphics="./cardTTTAAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Entry Point for mafia Cracker. Tap to gain 8k for mafia Cracker hiring." />
+</card>
+<card name="Home" text="" graphics="./cardTTTBAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="Simple Scanner +1A." />
+</card>
+<card name="Yakuza" text="" graphics="./cardTTTCAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Tap for 8k event shopping" />
+</card>
+<card name="Triads" text="" graphics="./cardTTTDAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="" />
+</card>
+<card name="Bashura" text="" graphics="./cardTTTEAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="C" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="" />
+</card>
+<card name="MI5" text="" graphics="./cardTTTFAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="3" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="5" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="1" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Attack only from one node allowed. " />
+</card>
+<card name="SISDE" text="" graphics="./cardTTTGAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Entry Point for Police Cracker -  +4k for chip shopping" />
+</card>
+<card name="CIA" text="" graphics="./cardTTTHAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="5" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="" />
+</card>
+<card name="FBI" text="" graphics="./cardTTTIAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="1" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="" />
+</card>
+<card name="Home" text="" graphics="./cardTTTJAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="" />
+</card>
+<card name="KGB" text="" graphics="./cardTTTKAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="P" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="" />
+</card>
+<card name="The Projects" text="" graphics="./cardTTTLAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="5K (C) Tap for Attack Teamwork." />
+</card>
+<card name="Kyuzz" text="" graphics="./cardTTTMAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="3" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Autodisconnect: +1AP to disconnect node. Fashionable" />
+</card>
+<card name="Freaknet" text="" graphics="./cardTTTNAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="1" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="4" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="2" />
+<attr key="slot" value="2" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Entry point for Underground Cracker" />
+</card>
+<card name="Home" text="" graphics="./cardTTTOAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="4" />
+<attr key="VP" value="2" />
+<attr key="bonus" value="Scanner +2A." />
+</card>
+<card name="Quico" text="" graphics="./cardTTTPAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="4" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="5" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="3" />
+<attr key="slot" value="3" />
+<attr key="VP" value="4" />
+<attr key="bonus" value="Tap for Defense Teamwork" />
+</card>
+<card name="Hypermart" text="" graphics="./cardTTTQAAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Node" />
+<attr key="faction" value="U" />
+<attr key="cost" value="0" />
+<attr key="prod" value="3" />
+<attr key="minconn" value="2" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="4" />
+<attr key="slot" value="3" />
+<attr key="VP" value="3" />
+<attr key="bonus" value="Tap to get 6k for chip shopping." />
+</card>
+<card name="Ghost Server" text="" graphics="./cardTTTRAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="X" />
+<attr key="cost" value="0" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="4" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Autodisconnect: +2AP to disconnect node. Fashionable No-Root" />
+</card>
+<card name="DWH" text="" graphics="./cardTTTSAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Node" />
+<attr key="faction" value="X" />
+<attr key="cost" value="0" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="1" />
+<attr key="maxconn" value="3" />
+<attr key="defense" value="2" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="6" />
+<attr key="VP" value="1" />
+<attr key="bonus" value="Each Chip on this node give +2K production +1VP" />
+</card>
+<card name="Router" text="" graphics="./cardTTTTAAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Node" />
+<attr key="faction" value="X" />
+<attr key="cost" value="0" />
+<attr key="prod" value="2" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="6" />
+<attr key="defense" value="1" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="1" />
+<attr key="slot" value="1" />
+<attr key="VP" value="1" />
+<attr key="bonus" value="Entry Point" />
+</card>
+<card name="MegaPatch" text="" graphics="./cardTTTT@AAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 Defense for all Corporative nodes" />
+</card>
+<card name="Space Invaders" text="" graphics="./cardTTTTAAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="B" />
+<attr key="cost" value="4" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Target Cracker get -2 AP" />
+</card>
+<card name="Cracker Hunter" text="" graphics="./cardTTTTBAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Cracker" />
+</card>
+<card name="Node Counter" text="" graphics="./cardTTTTCAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Node" />
+</card>
+<card name="Event Counter" text="" graphics="./cardTTTTDAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Event" />
+</card>
+<card name="Smart Counter" text="" graphics="./cardTTTTEAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Smartcard" />
+</card>
+<card name="Chip Counter" text="" graphics="./cardTTTTFAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target Chip" />
+</card>
+<card name="Counter card" text="" graphics="./cardTTTTGAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Counter target card pay also double of casting cost of it" />
+</card>
+<card name="Leon" text="" graphics="./cardTTTTHAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="C" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All Attaccking Crackers get -1 AP" />
+</card>
+<card name="Shock" text="" graphics="./cardTTTTIAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="P" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Disconnect an Cracker" />
+</card>
+<card name="Exploit" text="" graphics="./cardTTTTJAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All Corporative node get -1 Defense" />
+</card>
+<card name="Jammer's Club" text="" graphics="./cardTTTTKAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="All your Cracker get +2 Attack or +2 Defense" />
+</card>
+<card name="Modem Connection" text="" graphics="./cardTTTTLAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="10" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Create a temporaly fake node with m0 M6 even in a dead zone" />
+</card>
+<card name="Team Leader" text="" graphics="./cardTTTTMAAAA.png" >
+<attr key="rarity" value="R" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="U" />
+<attr key="cost" value="8" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="Give Teamwork in a node" />
+</card>
+<card name="BufferOverflow" text="" graphics="./cardTTTTNAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="2" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 Attack" />
+</card>
+<card name="Story" text="" graphics="./cardTTTTOAAAA.png" >
+<attr key="rarity" value="U" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="2" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+1 Defense" />
+</card>
+<card name="Stuff" text="" graphics="./cardTTTTPAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="6" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 AP for one Cracker" />
+</card>
+<card name="Mandrake" text="" graphics="./cardTTTTQAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 Attack" />
+</card>
+<card name="TurnAround" text="" graphics="./cardTTTTRAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="+2 Defense" />
+</card>
+<card name="CopyLeft" text="" graphics="./cardTTTTSAAAA.png" >
+<attr key="rarity" value="C" />
+<attr key="type" value="Smartcard" />
+<attr key="faction" value="X" />
+<attr key="cost" value="5" />
+<attr key="prod" value="0" />
+<attr key="minconn" value="0" />
+<attr key="maxconn" value="0" />
+<attr key="defense" value="0" />
+<attr key="attack" value="0" />
+<attr key="AP" value="0" />
+<attr key="mem" value="0" />
+<attr key="slot" value="0" />
+<attr key="VP" value="0" />
+<attr key="bonus" value="1AP (C) Clone a Chip until end of the turn. " />
+</card>
+</cards>
+</ccg-setinfo>
+

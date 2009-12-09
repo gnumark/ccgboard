@@ -1,0 +1,47 @@
+pid = player id
+tid = turn id
+gid = game id
+did = deck id
+cid = card type id
+eid = effect id
+
+ECHO
+get_deck(pid,gid,type)
+get_network(gid)
+get_node(gid,x_pos,y_pos)
+get_turn(gid)
+play_hack(gid,pid,cid,paid[])
+play_node(gid,pid,cid,x_pos,y_pos)
+play_chip(gid,pid,cid,paid[],cid_d)
+play_event(gid,pid,cid,paid[],cid_d)
+play_smart(gid,pid,cid,paid[],cid_d)
+
+
+REPLY
+<deck user="username" pid="pid" tid="turn" gid="gid" type="deck_type" >
+user = il nome dell'utente
+tid = il numero del turno per l'utente
+gid = l'id della partita
+pid = id dell'utente
+type = [0..7] 0=Main deck 1=Side deck 2=Trash deck 3=Sidebank 4=OutofGame 5 6 7 are free
+	<card cid="cid" diid="diid">
+		cid = card id 
+		diid = deck internal id, is the number assigned to the card in initial deck
+	</card>
+</deck>
+
+<network gid="gid"  >
+	<node posx="x_pos" posy="y_pos"   >
+		<card>
+		</card>
+		<effect>
+		</effect>
+	</node>
+</network>
+
+<turn gid="gid" tid="tid" pid="pid" >
+</turn>
+
+<question gid="gid" pid="pid">
+</question>
+

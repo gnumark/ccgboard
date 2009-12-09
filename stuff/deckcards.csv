@@ -1,0 +1,66 @@
+"Saburo","Node",0,0,0,"Y",2,1,3,3,3,5,0
+"Quico","Node",0,0,0,"U",5,2,5,5,3,3,"Tap to prevent defense malus on thi snode"
+"The Projects","Node",0,0,0,"U",3,1,4,2,3,4,"Tap to get Loa's protection (prevent attack malus from this node)"
+"Hypermart","Node",0,0,0,"U",3,2,4,2,4,3,"Tap to get 6k for chip shopping"
+"Kyuzz","Node",0,0,0,"U",3,1,3,3,3,3,"Autodisconnect: +1AP to disconnect node"
+"Home ","Node",0,0,0,"C",4,0,6,1,4,4,0
+"Home ","Node",0,0,0,"U",2,0,6,1,4,4,"Scanner +2A"
+"Home ","Node",0,0,0,"M",2,0,6,2,4,4,"Simple Scanner +1 A"
+"Home ","Node",0,0,0,"Y",2,0,6,3,4,4,0
+"Marciosoft","Node",0,0,0,"C",7,3,5,4,5,3,0
+"Truffo spa","Node",0,0,0,"C",5,1,4,3,3,2,0
+"Zaibatsu 1","Node",0,0,0,"Y",5,2,5,4,2,2,0
+"Fujiyama","Node",0,0,0,"Y",3,1,3,6,4,3,0
+"Xoxxo","Node",0,0,0,"U",4,1,4,4,3,5,0
+"Kitty's Inc","Node",0,0,0,"C",4,2,3,1,3,2,"Defense Chip double bonus"
+"Italian Restaurant","Node",0,0,0,"M",5,2,5,2,2,2,"Home node for mafia hacker. Tap to gain 10k for mafia hacker hiring"
+"Chip's Gnaps","Node",0,0,0,"C",5,1,3,2,3,3,"Tap to prevent Chip destruction (can't use it)"
+"LoanShark","Node",0,0,0,"M",3,1,4,1,4,3,"+3K istant cache (only for smart shop)"
+"Sarariman","Hacker",1,4,7,"Y",0,0,0,4,0,0,"+1 k production"
+"Jack the Lame","Hacker",3,5,7,"U",0,0,0,3,0,0,"Cost 2K each turn"
+"Smith","Hacker",1,6,13,"C",0,0,0,4,0,0,"-1 for each hacker in defense with him"
+"Bobby Newmark","Hacker",4,3,10,"U",0,0,0,1,0,0,"Spend 10: get a permanent 1 AP"
+"Krumiro","Hacker",2,4,9,"C",0,0,0,4,0,0,"Cost 4K each Turn"
+"Rossi","Hacker",1,3,6,"C",0,0,0,2,0,0,"If burned can reenter for 3k next turn"
+"Tony","Hacker",3,4,7,"M",0,0,0,1,0,0,"Spend 2 AP for a +1 Attack"
+"Vinny","Hacker",4,6,10,"M",0,0,0,1,0,0,"Cost 2k each turn (or get -2 AP)"
+"Big Boy","Hacker",4,4,7,"M",0,0,0,1,0,0,"+1k Prod"
+"Bianchi","Hacker",1,4,7,"C",0,0,0,3,0,0,"+2k Production"
+"RipperJack","Hacker",5,7,14,"U",0,0,0,2,0,0,"Attack alone. Cost 2k each Turn"
+"Lamer","Hacker",2,3,3,"U",0,0,0,2,0,0,"Cost 0 if is first Hacker played "
+"Samurai","Hacker",1,4,7,"Y",0,0,0,3,0,0,"+1 AP (max +3) if he doesn't use AP last turn"
+"Gonzo","Hacker",3,4,6,"U",0,0,0,2,0,0,"If attack can't use AP next turn"
+"Ninja","Hacker",2,5,10,"Y",0,0,0,3,0,0,0
+"IceBreaker","Chip",1,0,4,"U",0,0,0,0,1,0,"Disable Lock (lucchetto)"
+"Scanner","Chip",2,0,5,"FL",0,0,0,0,1,0,0
+"Scan Sniper","Chip",1,0,3,"C",0,0,0,0,1,0,"Disable Scanner"
+"Simple Scanner","Chip",1,0,2,"FL",0,0,0,0,1,0,0
+"IDS","Chip",1,0,9,"C",0,0,0,3,2,0,0
+"Bankomat","Chip",0,0,4,"C",0,0,0,1,1,0,"+2K Prod"
+"Virus","Chip",1,0,6,"M",0,0,0,0,2,0,"-1 Defense on attacked node next turn"
+"Eraser","Chip",0,0,3,"FL",0,0,0,1,1,0,"Autodestruction (if someone change root it will be placed on graveyard)"
+"Remote Control","Chip",0,0,3,"FL",0,0,0,1,1,0,"+1 AP"
+"Pizza","Chip",1,0,4,"M",0,0,0,0,1,0,"+1k Prod"
+"Crack","Chip",3,0,9,"U",0,0,0,1,2,0,0
+"Base Lock","Chip",0,0,2,"FL",0,0,0,1,1,0,0
+"Lock","Chip",0,0,5,"FL",0,0,0,2,1,0,0
+"Sushi","Chip",0,0,4,"Y",0,0,0,1,1,0,"+1k Prod"
+"Proxy","Chip",1,0,4,"U",0,0,0,0,1,0,"+2 AP for one Hacker"
+"Shock","Smartcard",0,0,6,"Y",0,0,0,0,0,0,"Disconnect an Hacker"
+"CopyLeft","Smartcard",0,0,4,"FL",0,0,0,0,0,0,"Clone a Chip until end of the turn"
+"Mandrake","Smartcard",0,0,4,"FL",0,0,0,0,0,0,"+2 Attack"
+"Story","Smartcard",0,0,2,"FL",0,0,0,0,0,0,"+1 Defense"
+"Space Invaders","Smartcard",0,0,2,"C",0,0,0,0,0,0,"Target Hacker get -2 AP"
+"TurnAround","Smartcard",0,0,4,"FL",0,0,0,0,0,0,"+2 Defense"
+"Exploit","Smartcard",0,0,6,"U",0,0,0,0,0,0,"All Corporative node get -1 Defense"
+"Leon","Smartcard",0,0,3,"M",0,0,0,0,0,0,"All Attaccking Hackers get -1 AP"
+"Jammer's Club","Smartcard",0,0,10,"U",0,0,0,0,0,0,"All Hacker get +2 Attack or +2 Defense"
+"MegaPatch","Smartcard",0,0,4,"C",0,0,0,0,0,0,"+1 Defense for all Corporative nodes"
+"BufferOverflow","Smartcard",0,0,2,"FL",0,0,0,0,0,0,"+1 Attack"
+"Stuff","Smartcard",0,0,3,"FL",0,0,0,0,0,0,"+2 AP for one hacker"
+"Black Out","Event",0,0,12,"FL",0,0,0,0,0,0,"Put all chips from play to the graveyards"
+"Zen Spider","Event",0,0,3,"Y",0,0,0,0,0,0,"Yakuza node production will be doubled"
+"NetBust","Event",0,0,8,"C",0,0,0,0,0,0,"Put an hacker in owners deck and reshuffle"
+"Family Estates","Event",0,0,3,"M",0,0,0,0,0,0,"Mafia node production will be doubled"
+"Nerd's Revenge","Event",0,0,4,"U",0,0,0,0,0,0,"All Underground Hackers with less than 3 in attack get +1 Attack"
+"Wilsonate","Event",0,0,8,"U",0,0,0,0,0,0,"Destroy a Chip"

@@ -1,0 +1,127 @@
+Tipi Carte:
+
+	Nodi
+		Carte che rappresentano nodi della rete
+		sono interconnesse una all'altra attraverso la vicinanza
+		ogni nodo dichiara:
+			Conn min
+			Conn max
+			Chip Slot
+			Memoria
+			Programmi
+			Fazione
+			Produzione
+
+	Hacker
+		Carte che rappresentano gli hacker della fazione in campo
+		possono stare sui propri nodi o sui nodi avversari
+		Valori:
+			Valore richiesto
+			Velocita'
+			Fazione
+			action point
+			deck (solo memoria)
+			
+	Prog difesa
+		Programmi di difesa (da usare sui propri nodi 
+		(o magari particolari sui nodi avversari)
+	Prog attacco
+		Programmi di attacco (da usare sugli hacker 
+		(o magari particolari sugli hacker avversari)
+		Valori:
+			Costo Memoria
+			Difesa 
+			Attacco
+			Fazione
+			Bonus
+			
+	Evento
+		Vari tipi di carte che agiscono su fasi nodi e hacker
+			Fazione
+			Vari
+
+	Interrupt
+		Carte evento lanciate anche durante la fase di action
+
+
+Fasi:
+	Harvesting phase
+	Draw phase
+	Nodes phase 
+	Card phase 
+	Action phase 
+	
+	
+
+Inizio:
+	Si inizia con almeno un nodo e un hacker
+	(consigliate partite con almeno 3 nodi iniziali)
+	si piazzano uno alla volta i nodi inizial;i
+	consigliato con anta
+	i nodi non possono essere mai di differenza maggiore di uno
+
+	
+
+Ogni nodo puo' avere vari stati
+	Integro				Dritto
+	Passaggio			Tappato
+	DoS						Girato
+	Distruzione		Eliminato
+	Root					Girato
+	
+
+Harvesting phase
+	Eliminazione carte ad effetto terminato
+	Raccolta Fondi
+
+Draw phase
+	Pescare carta
+
+Nodes phase
+	Lanciare un nodo (uno per turno)
+	
+Card phase
+	Lanciare carte hacker
+	lanciare carte programmi
+	lanciare carte eventi
+	pescare carta per soldi
+
+
+Action point phase
+Permette di utilizzare gli action point degli hacker in campo
+per azioni defensive o di attacco
+
+dichiarare programmi difensivi o
+dichiarare attacco o
+dichiarare movimento o
+connessione/cconnaessione 
+caricare programmi o
+cambiare stato sistema o
+lanciare un interrupt (entrambi) o
+
+
+
+Fazioni:
+
+4 nodi di un quadrato
+Corporazioni, Underground, Mafia, Yakuza
+
+C --- Y
+|     |
+|     |
+M === U
+
+neutri a contatto
+Nemico altrimenti
+
+
+	
+
+
+
+
+
+
+
+
+

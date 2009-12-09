@@ -1,0 +1,30 @@
+
+bonus
+
+"+%d A",
+"+%d D",
+"+%d AP",
+"+%d Production",
+"+%d Cost",
+"+%d memory",
+"+%d slot",
+"+%d min connection",
+"+%d Max connection",
+"+%d activation cost",
+"+%d card drawn",
+"-%d A",
+"-%d D",
+"-%d AP",
+"-%d Production",
+"-%d Cost",
+"-%d memory",
+"-%d slot",
+"-%d min connection",
+"-%d Max connection",
+"-%d activation cost",
+"-%d card drawn",
+
+"Loa's protection (no multiattack malus)",
+"Loa's protection (no multidefense malus)",
+"Autodisconnect: +1 AP to disconnect",
+
