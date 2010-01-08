@@ -1,4 +1,0 @@
-# List of source files containing translatable strings.
-./src/interface.cc
-./src/main_glade.cc
-./src/main.cc
